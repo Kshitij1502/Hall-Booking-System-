@@ -1,0 +1,138 @@
+/* src/pages/Home.css */
+
+.home-container {
+  /* padding: 290px; */
+  background-image: url('../../public/images/background.jpg'); /* Adjust the path to match your image location */
+  /* background-size: cover;
+  background-position: center; */
+}
+
+/* Other styles... */
+
+.hall-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hall-card {
+  width: calc(30% - 20px); /* Adjusted width with margin */
+  margin: 0 10px 20px 0; /* Added margin for spacing */
+}
+
+.hall-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.hall-card h2 {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.hall-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.hall-card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.hall-card button:hover {
+  background-color: #0056b3;
+}
+/* Home.css */
+
+/* Background image */
+.home-container {
+  /* background-image: url("path/to/your/image.jpg"); */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items:  left;
+  justify-content: center;
+  /* max-width: 1200px; */
+    margin: 0 auto;
+    padding: 60px;
+  
+  
+}
+
+/* Text styling */
+.welcome-text {
+  font-size: 35px;
+    margin-bottom: 10px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  /* margin-bottom: 2rem; */
+  /* margin-left: 4rem; */
+}
+
+.book-now-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 42rem;
+  
+}
+.welcome-section{
+  padding: 50px;
+}
+.service-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.grid-images {
+  position: relative;
+  overflow: hidden;
+}
+
+.grid-images img {
+  width: 100%;
+  height: auto;
+}
+
+.image-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+.gallery-section {
+  text-align: center;
+}
+
+.gallery-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.gallery-images img {
+  width: 100%;
+  height: auto;
+}
