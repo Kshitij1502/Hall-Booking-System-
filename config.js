@@ -1,7 +1,7 @@
 const config = {
     database: {
       // MongoDB connection URI
-      connectionString: 'mongodb+srv://Kshitij1502:22706012345@hallbooking.izfabxm.mongodb.net/HallBooking',
+      connectionString: 'your mongodb url',
     },
     server: {
       // Port for the server to listen on
